@@ -1,0 +1,11 @@
+-- Question 1 Write a SQL query to create a table with specific columns and constraints.
+CREATE DATABASE Employee;
+
+USE Employee;
+
+CREATE TABLE employee_details(
+employee_Id VARCHAR(5) PRIMARY KEY,
+employee_Name VARCHAR(10) NOT NULL,
+employee_MobileNo VARCHAR(10),
+employee_City VARCHAR(10)
+);
