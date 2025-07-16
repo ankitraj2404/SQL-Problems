@@ -1,0 +1,9 @@
+-- Question 5 Write a SQL query to create a table with five columns: order_id, customer_id, order_date, total_amount, and status. Add a NOT NULL constraint to the order_date column.
+
+CREATE TABLE order_Details(
+order_id VARCHAR(10) PRIMARY KEY,
+customer_id VARCHAR(10),
+order_date DATE NOT NULL,
+total_amount FLOAT,
+status VARCHAR(15)
+);
