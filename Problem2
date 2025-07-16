@@ -1,0 +1,7 @@
+-- Question 2 Write a SQL query to create a table with three columns: id, name, and age. Add a primary key constraint on the id column.
+
+CREATE TABLE person_details(
+person_Id VARCHAR(5) PRIMARY KEY,
+person_Name VARCHAR(10) NOT NULL,
+person_Age TINYINT
+);
