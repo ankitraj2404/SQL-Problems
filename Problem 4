@@ -1,0 +1,6 @@
+-- Question 4 Write a SQL query to create a table with two columns: user_id and email. Make sure the email column only accepts unique values.
+
+CREATE TABLE User(
+user_Id VARCHAR(10),
+user_Email VARCHAR(50) UNIQUE
+);
