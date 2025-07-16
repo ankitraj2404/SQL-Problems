@@ -1,0 +1,8 @@
+-- Question 3 Write a SQL query to create a table with four columns: product_id, product_name, price, and quantity. Ensure that the price column cannot have negative values.
+
+CREATE TABLE product_Details(
+product_Id VARCHAR(5) PRIMARY KEY,
+product_Name VARCHAR(10) NOT NULL,
+product_Price FLOAT CHECK (product_Price > 0),
+product_Quantity INT
+);
